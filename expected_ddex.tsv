@@ -1,0 +1,25 @@
+HEAD	dsrf/1.3/1.4.1/1.3	AudioVisualProfile	1.2	SR_201601_152	2016-01-25T09:18:22Z	1	1	2015-12-01	2015-12-31	PADPIDA2015777777X	Test Company	iTunesVideo	PADPIDA2015999999A	SampleRecipientNameA	SampleSocietyA|SampleSocietyB																
+#HEAD		Profile	ProfileVersion	MessageId	MessageCreatedDateTime	FileNumber	NumberOfFiles	UsageStartDate	UsageEndDate	SenderPartyId	SenderName	ServiceDescription	RecipientPartyId	RecipientName	RepresentedRepertoire																
+#SY06.02	SummaryRecordId	DistributionChannel	DistributionChannelDPID	CommercialModel	UseType	Territory	ServiceDescription	Usages	Subscribers	Currency	NumberOfReleases	NetRevenue	IndirectNetRevenue	PreviewAvailable	ExchangRateBaseCurrency	ExchangeRate	ViewerHours														
+#RE03.02	BlockId	ReleaseReference	DSPReleaseId	ProprietaryReleaseId	ICPN	Title	SubTitle	SeriesTitle	SeasonNumber	DisplayArtistName	DisplayArtistPartyId	ReleaseType	DataProviderName	VideoCategory	EpisodeNumber	UserChannelName															
+#AS03.02	BlockId	ResourceReference	DspResourceId	ISAN	EIDR	ProprietaryId	VideoType	Title	SubTitle	OriginalTitle	SeasonNumber	EpisodeNumber	Genre	Duration	ProducerName	ProducerPartyId	DirectorName	DirectorPartyId	ActorName	ActorPartyId	LanguageLocalizationType	HasCaptioning	HasAudioDescription	LanguageOfPerformance	LanguageOfDubbing	DateOfProductionOrRelease	CountryOfProduction	OriginalBroadcastDateTime	ProductionCompanyName	ProductionCompanyPartyId	CueSheetDataProviderName
+#SU04.02	BlockId	SummaryRecordId	SalesTranscactionId	TransactedRelease	TransactedResource	IsDRMEnforced	VideoDefinitionType	CodingType	BitRate	OriginalBroadcastChannel	OriginalBroadcastDateTime	IsRoyaltyBearing	SalesUpgrade	Usages	Returns	DurationUsed	PriceConsumerPaidExcSalesTax	PromotionalActivity	OfferStartDate	OfferEndDate	OfferURL	OriginalBroadcastDateTime	UseType								
+#FOOT	NumberOfLinesInFile	NumberOfLinesInReport	NumberOfSummaryRecords	NumberOfBlocksInFile	NumberOfBlocksInReport																										
+SY06.02	1	DistributionChanelA	PADPIDA2015777777X	PayAsYouGoModel	PermanentDownload	FR	Video	678		EUR	6	4896.1		true			PT10H																											
+# block no. 1																													
+RE03.02	1	R1	412447392	ABC::8504	134567890123	[Rec]				Paco Plaza	ISNI::0000000121306269	FeatureFilm	Wild Side Video SAS	Movie																	
+AS03.02	1	A1	412447392A	00000001F7650000Q00000000X	10.5240/6D88-FAB2-687E-6B0D-2A30-W	Filmax::666	FeatureFilm	[Rec]		[Rec]			Action	PT1H16M	CASTELAO PRODUCCIONES		Jaume Balaguer|Paco Plaza	ISNI::0000000121417209|ISNI::0000000121306269	Manuela Velasco|Javier Botet|Pablo Rosso		Subtitled	TRUE	FALSE	es	fr	2007	ES	2008-06-21			
+SU04.02	1	1	1	R1		TRUE	HighDefinition	Lossless	4.5			true	false	100	0		7.99		2010-12-01																							
+# block no. 2																															
+RE03.02	2	R1	1576823	ABC::GREYS_ANATOMY_1002		Grey's Anatomy	Grey's Anatomy	Grey's Anatomy - Season 12	12	Elen Pompeo	ISNI::0000000119471951	Series	ABC Studios	TVProgramme																	
+AS03.02	2	S12E8	15768231H		10.3340/F54C-6D56-E1A2-3F44-A865-O	ABC::GREYS_ANATOMY_1002_12_8	Episode	Things We Lost in the Fire		Things We Lost in the Fire	12	8	Drama	PT43M	ABC Studios	ISNI::0000000106582812	Rob Corn	ISNI::0000000118052739	Elen Pompeo|Justin Chambers|James Picken Jr.|Jessica Capshaw	ISNI::0000000119471951|ISNI::0000000080573853||ISNI::0000000120024016	Dubbed	FALSE	TRUE	en	fr	2015	US	2010-08-30																													
+SU04.02	2	1	1	R1		FALSE	HighDefinition		7.5			true	false	22	0		3.46																							
+# block no. 3					9012345678901																										
+RE03.02	3	R1	1584052	NG::DEEPSEA_CHALLENGE_2003		DEEPSEA CHALLENGE	L'AVENTURE D'UNE VIE			James Cameron	ISNI::0000000121463344 	Documentary	National Geographic	Nature																	
+AS03.02	3	D1	1584052A		10.5240/F125-0412-F1A7-5A04-03A0-A	NG::DEEPSEA_CHALLENGE_2003A|CNC::A-2014-001-879-432	Documentary	Deepsea Challenge		Deepsea Challenge			Documentary	PT90M	National Geographic	ISNI::0000000121946610 	John Bruno|Andrew Wight|Ray Quint	ISNI::0000000113663215||	James Cameron|Frank Lolito|Lachlan Woods	ISNI::0000000121463344||	Dubbed	FALSE	TRUE	en	fr	2014	US				
+SU04.02	3	1	2		D1	FALSE			7.5			true	false	50	0	PT45M	3.46														
+# block no. 4																														
+RE03.02	4	R1	1805211	PARLOPHONE::HYMN_FOR_THE_WEEKEND_6001		HYMN FOR THE WEEKEND				Beyonce	ISNI::0000000114914936	VideoSingle	Parlophone	Video																	
+AS03.02	4	M1	1805211A			PARLOPHONE::HYMN_FOR_THE_WEEKEND_6001	MusicalWorkClip	Hymn for the Weekend					MusicalWorkClip	PT3M34S	PARLOPHONE	ISNI::0000000106752455	Ben Mor	ISNI::000000083543625	Beyonce	ISNI::0000000114914936	Original	FALSE	FALSE	en	en	2016	GB				
+SU04.02	4	2	1	R1		FALSE			7.5			true	FALSE	22	0		3.98																								
+FOOT	25	25	1	4	4																									
